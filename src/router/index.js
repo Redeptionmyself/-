@@ -133,7 +133,7 @@ const routes = [
     }
 ];
 const router = createRouter({
-    history: createWebHashHistory('/food-chain-system/'),
+    history: createWebHashHistory('/-/'),
     routes,
     scrollBehavior: () => ({ left: 0, top: 0 })
 });

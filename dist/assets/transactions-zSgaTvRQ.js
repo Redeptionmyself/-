@@ -1,1 +1,0 @@
-import{d as t,c as o,a,o as s}from"./index-Xe5YDZkB.js";import{_ as n}from"./_plugin-vue_export-helper-DlAUqK2U.js";const r=t({__name:"transactions",setup(c){return(_,e)=>(s(),o("div",null,e[0]||(e[0]=[a("h1",null,"交易记录",-1)])))}}),l=n(r,[["__scopeId","data-v-d8598ce7"]]);export{l as default};

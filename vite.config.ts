@@ -5,7 +5,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/food-chain-system/',
+  base: '/-/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
@@ -16,12 +16,12 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       output: {
-        manualChunks: undefined
+        manualChunks: undefined,
+        entryFileNames: 'assets/[name].js',
+        chunkFileNames: 'assets/[name].js',
+        assetFileNames: 'assets/[name].[ext]'
       }
-    },
-    // 添加正确的 MIME 类型配置
-    assetsInlineLimit: 4096,
-    manifest: true
+    }
   },
   optimizeDeps: {
     include: ['vue', 'vue-router', 'pinia', 'naive-ui']
