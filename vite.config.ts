@@ -1,25 +1,29 @@
 /// <reference types="vite/client" />
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { resolve } from 'path'
+import path from 'path'
 
 export default defineConfig({
   plugins: [vue()],
+  base: '/food-chain-system/',
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src')
+      '@': path.resolve(__dirname, 'src')
     }
   },
-  server: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:3000',
-        changeOrigin: true
-      },
-      '/ws': {
-        target: 'ws://localhost:3000',
-        ws: true
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
       }
-    }
+    },
+    // 添加正确的 MIME 类型配置
+    assetsInlineLimit: 4096,
+    manifest: true
+  },
+  optimizeDeps: {
+    include: ['vue', 'vue-router', 'pinia', 'naive-ui']
   }
 }) 

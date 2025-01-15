@@ -133,9 +133,9 @@ const routes = [
     }
 ];
 const router = createRouter({
-    history: createWebHashHistory(),
+    history: createWebHashHistory('/food-chain-system/'),
     routes,
-    base: './'
+    scrollBehavior: () => ({ left: 0, top: 0 })
 });
 
 router.onError((error) => {
