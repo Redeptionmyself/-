@@ -1,0 +1,1 @@
+import{d as t,c as o,a as s,o as n}from"./index-Be01bwGj.js";import{_ as a}from"./_plugin-vue_export-helper-DlAUqK2U.js";const r=t({__name:"Inputs",setup(p){return(_,e)=>(n(),o("div",null,e[0]||(e[0]=[s("h1",null,"农业投入",-1)])))}}),m=a(r,[["__scopeId","data-v-4304601c"]]);export{m as default};

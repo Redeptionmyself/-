@@ -3,12 +3,13 @@ import App from './App.vue'
 import router from './router'
 import { createPinia } from 'pinia'
 import naive from 'naive-ui'
-import { createDiscreteApi } from 'naive-ui'
-
-const { message } = createDiscreteApi(['message'])
-window.$message = message
 
 const app = createApp(App)
+
+app.config.errorHandler = (err, vm, info) => {
+  console.error('Vue Error:', err)
+  console.error('Error Info:', info)
+}
 
 app.use(router)
 app.use(createPinia())

@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 const routes = [
     {
         path: '/',
@@ -125,12 +125,21 @@ const routes = [
                 }
             }
         ]
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: () => import('@/views/404.vue')
     }
 ];
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes,
-    mode: 'hash',
     base: './'
 });
+
+router.onError((error) => {
+    console.error('Router Error:', error)
+})
+
 export default router;
