@@ -1,0 +1,1 @@
+import{d as o,c as s,a as n,o as t,_ as a}from"./index-BdcdRvgA.js";const r=o({__name:"nodes",setup(_){return(c,e)=>(t(),s("div",null,e[0]||(e[0]=[n("h1",null,"节点状态",-1)])))}}),p=a(r,[["__scopeId","data-v-138966c0"]]);export{p as default};

@@ -1,0 +1,1 @@
+import{d as t,c as s,a as n,o,_ as a}from"./index-BdcdRvgA.js";const p=t({__name:"Inputs",setup(r){return(_,e)=>(o(),s("div",null,e[0]||(e[0]=[n("h1",null,"农业投入",-1)])))}}),l=a(p,[["__scopeId","data-v-4304601c"]]);export{l as default};

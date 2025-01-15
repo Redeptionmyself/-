@@ -1,0 +1,1 @@
+import{d as t,c as a,a as o,o as s,_ as n}from"./index-BdcdRvgA.js";const r=t({__name:"transport",setup(p){return(_,e)=>(s(),a("div",null,e[0]||(e[0]=[o("h1",null,"运输追踪",-1)])))}}),d=n(r,[["__scopeId","data-v-c3d3ef1a"]]);export{d as default};

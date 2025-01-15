@@ -1,0 +1,1 @@
+import{d as t,c as a,a as s,o as n,_ as o}from"./index-BdcdRvgA.js";const r=t({__name:"transactions",setup(c){return(_,e)=>(n(),a("div",null,e[0]||(e[0]=[s("h1",null,"交易记录",-1)])))}}),d=o(r,[["__scopeId","data-v-d8598ce7"]]);export{d as default};

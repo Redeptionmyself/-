@@ -1,0 +1,1 @@
+import{d as a,c as o,a as t,o as s,_ as n}from"./index-BdcdRvgA.js";const r=a({__name:"storage",setup(_){return(c,e)=>(s(),o("div",null,e[0]||(e[0]=[t("h1",null,"仓储环境",-1)])))}}),p=n(r,[["__scopeId","data-v-ad4a2d5a"]]);export{p as default};

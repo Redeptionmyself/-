@@ -1,8 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
+import BasicLayout from '@/layouts/BasicLayout.vue';
+
 const routes = [
     {
         path: '/',
-        component: () => import('@/layouts/BasicLayout.vue'),
+        component: BasicLayout,
         children: [
             {
                 path: '',
