@@ -1,0 +1,9 @@
+# 使用 Vite 创建 Vue 3 + TS 项目
+npm create vite@latest food-chain-system -- --template vue-ts
+cd food-chain-system
+npm install 
+npm install naive-ui
+npm install vue-router@4
+npm install pinia
+npm install @vicons/ionicons5 
+npm run dev 
