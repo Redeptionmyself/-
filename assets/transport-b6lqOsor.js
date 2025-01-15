@@ -1,0 +1,1 @@
+import{d as t,c as o,a,o as r}from"./index-Be01bwGj.js";import{_ as s}from"./_plugin-vue_export-helper-DlAUqK2U.js";const n=t({__name:"transport",setup(p){return(_,e)=>(r(),o("div",null,e[0]||(e[0]=[a("h1",null,"运输追踪",-1)])))}}),l=s(n,[["__scopeId","data-v-c3d3ef1a"]]);export{l as default};

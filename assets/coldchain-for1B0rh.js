@@ -1,0 +1,1 @@
+import{d as o,c as a,a as t,o as n}from"./index-Be01bwGj.js";import{_ as s}from"./_plugin-vue_export-helper-DlAUqK2U.js";const c=o({__name:"coldchain",setup(r){return(d,e)=>(n(),a("div",null,e[0]||(e[0]=[t("h1",null,"冷链监控",-1)])))}}),p=s(c,[["__scopeId","data-v-6d4d8364"]]);export{p as default};

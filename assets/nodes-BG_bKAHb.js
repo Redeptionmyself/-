@@ -1,0 +1,1 @@
+import{d as o,c as s,a as t,o as n}from"./index-Be01bwGj.js";import{_ as a}from"./_plugin-vue_export-helper-DlAUqK2U.js";const r=o({__name:"nodes",setup(_){return(c,e)=>(n(),s("div",null,e[0]||(e[0]=[t("h1",null,"节点状态",-1)])))}}),l=a(r,[["__scopeId","data-v-138966c0"]]);export{l as default};

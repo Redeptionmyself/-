@@ -1,0 +1,1 @@
+import{d as t,c as o,a as s,o as a}from"./index-Be01bwGj.js";import{_ as n}from"./_plugin-vue_export-helper-DlAUqK2U.js";const r=t({__name:"events",setup(_){return(c,e)=>(a(),o("div",null,e[0]||(e[0]=[s("h1",null,"合约事件",-1)])))}}),l=n(r,[["__scopeId","data-v-afc9e68d"]]);export{l as default};
